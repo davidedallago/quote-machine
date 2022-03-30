@@ -18,9 +18,10 @@
 	 justify-content: center;
 	 align-items: center;
 	 height: 100vh;
+	 overflow-x: hidden;
+	 width: 100vw;
 }
  .footer {
-	 width: 450px;
 	 text-align: center;
 	 display: block;
 	 margin: 15px auto 30px auto;
@@ -32,10 +33,15 @@
 	 text-decoration: none;
 	 color: #fff;
 }
+ #wrapper{
+	width: 90%;
+	max-width: 700px;
+	display: flex;
+	margin: auto;
+}
  #quote-box {
 	 border-radius: 20px;
 	 position: relative;
-	 width: 450px;
 	 padding: 40px 50px;
 	 display: table;
 	 background-color: #fff;
@@ -43,7 +49,6 @@
 }
  #quote-box .quote-text {
 	 text-align: center;
-	 width: 450px;
 	 height: auto;
 	 clear: both;
 	 font-weight: 500;
@@ -54,7 +59,6 @@
 	 margin-right: 0.4em;
 }
  #quote-box .quote-author {
-	 width: 450px;
 	 height: auto;
 	 clear: both;
 	 padding-top: 20px;
@@ -62,7 +66,6 @@
 	 text-align: right;
 }
  #quote-box .buttons {
-	 width: 450px;
 	 margin: auto;
 	 display: block;
 }
@@ -99,3 +102,9 @@
 	 float: right;
 }
  
+@media only screen and (max-width: 400px) {
+	#text {
+		font-size: 15px;
+		line-height: 30px;
+	}
+}
