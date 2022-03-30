@@ -107,4 +107,8 @@
 		font-size: 15px;
 		line-height: 30px;
 	}
+
+	#quote-box {
+		padding: 25px;
+	}
 }
